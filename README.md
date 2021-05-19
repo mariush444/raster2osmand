@@ -5,8 +5,8 @@ convert raster files like
 to tiles in directoriy for OSMAND 
 
 This is bash scirpt.
-Prerequest:
-gdalwarp gdal_translate gdal2tiles.py should be already installed in OS.
+Prerequest: (gdal 3.2) should be already installed in OS.
+used commands: gdalwarp gdal_translate gdal2tiles.py
 
 Just start file from command line and choose option.
 Script grabs all files from directory and subdiretories and converts them and collects into one directory of tiles
