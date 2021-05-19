@@ -61,7 +61,7 @@ do
 # copy files to existinf sets of tiles
     rsync -a --ignore-existing --remove-source-files $dir_tmp/ $dir_main/
 
-# overwrite smaller by bigger files only
+# overwrite smaller files by bigger ones only
         echo "overwrite started"
         for f_tmp in $(find $dir_tmp/ -name '*.png')
             do
