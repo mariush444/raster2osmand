@@ -25,10 +25,10 @@ ColorBlue(){
 }
 
 echo -ne "
-creation of tiles for OSMAND
-$(ColorGreen '1)') Ozi *.map - all files included subdirecories
-$(ColorGreen '2)') GeoTiff and GeoPDF *.tif *.pdf  - all files included subdirecories
-$(ColorGreen '3)') Russian military maps calibrated in Ozi *.map - (001m/500k/200k/100k/050k/010k) all files included subdirecories
+creation of tiles for OSMAND (all files included subdirecories)
+$(ColorGreen '1)') Ozi *.map
+$(ColorGreen '2)') GeoTiff and GeoPDF *.tif *.pdf
+$(ColorGreen '3)') Russian military maps calibrated in Ozi *.map - (001m/500k/200k/100k/050k/010k)
 $(ColorGreen '0)') Exit
 $(ColorBlue 'Choose an option:') "
         read answer
