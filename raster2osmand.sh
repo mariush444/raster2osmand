@@ -1,4 +1,5 @@
 #!/bin/bash
+# version 0.1 alpha
 #
 # convert raster maps
 # OZI .map .ozf2
