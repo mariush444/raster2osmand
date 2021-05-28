@@ -52,7 +52,7 @@ $(ColorBlue 'Choose an option:') "
             1) declare -a my_array=( "*.map")  ;;
             2) declare -a my_array=( "*.tif" "*.pdf" )  ;;
             3) declare -a my_array=( "001m*.map" "500k*.map" "200k*.map" "100k*.map" "050k*.map" "010k*.map" ) ;;
-            4) read -p  "$(ColorRed 'select file: ')" my_file ; declare -a my_array=( "$my_file" )  ;;
+            4) read -p  "$(ColorRed 'select file or files e.g. map.pdf or *.tif: ')" my_file ; declare -a my_array=( "$my_file" )  ;;
             0) exit 0 ;;
             *) echo -e $red"Wrong option."$clear ;; #; menu;;
         esac
