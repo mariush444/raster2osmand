@@ -26,3 +26,5 @@ used commands: readfile
 Just start file from command line with directory name that should be converted into sqlitedb.
 Then user can copy the file to OSMAND's tiles directory on mobile device.
 
+PS</br>
+If you like it you can buy me <a href="https://buy.stripe.com/5kA5nP7B27OQdFK7sv"> 🍷 </a> or <a href="https://buy.stripe.com/5kA6rTcVm8SUeJOeUW"> ☕ </a>
