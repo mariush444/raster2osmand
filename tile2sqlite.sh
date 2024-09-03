@@ -21,7 +21,7 @@ dm=$(echo "$dt3/60" | bc)
 ds=$(echo "$dt3-60*$dm" | bc)
 }
 #list 1st level dirs as zoom
-my_dirs+=( $(ls -d -v   $1/*/ | sed "s/$1\///g" | sed 's/\///g') )
+my_dirs+=( $(ls -d -v   $1/*/ | sed "s/$1\///g" | sed 's/\///g' | sort -n) )
 last_element=${#my_dirs[*]}-1
 
 #create & initialize tables in sqlite
