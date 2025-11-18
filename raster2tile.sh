@@ -1,5 +1,6 @@
 #!/bin/bash
 #
+# source/author: https://github.com/mariush444?tab=repositories
 # convert raster maps
 # OZI .map .ozf2
 # GeoTiff GeoPDF
