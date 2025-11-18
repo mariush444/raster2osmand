@@ -1,5 +1,6 @@
 #!/bin/sh
 #
+# source/author: https://github.com/mariush444?tab=repositories
 # create sqlitedb for OSMAND from tiles stored in directory
 # directory should hase structure needed by OSMAND. It means zoom x y
 # tiles in directory can be prpered by raster2osmand script
